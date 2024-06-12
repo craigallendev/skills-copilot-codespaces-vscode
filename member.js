@@ -1,4 +1,4 @@
-function skillsmember() {
+function skillsMember() {
     var member = document.getElementById('member');
     var membervalue = member.options[member.selectedIndex].value;
     if (membervalue == 'yes') {
